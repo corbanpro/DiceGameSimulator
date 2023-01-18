@@ -34,8 +34,10 @@ namespace DiceGameSimulator
             }
 
             //print results of the dice roll simulation
-            Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS\nEach \" * \" represents 1 % of the total number of rolls.\nTotal number of rolls = " + numRolls + '\n');
-            
+            Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS");
+            Console.WriteLine("Each \" * \" represents 1 % of the total number of rolls.");
+            Console.WriteLine("Total number of rolls = " + numRolls + "\n");
+
             // print the asterisks
             for (int i = 0; i < rollPercent.Length; i++)
             {
